@@ -82,6 +82,9 @@ body{
     font-size: 16px;
     line-height: 11px;
 }
+@media (min-width: 576px){
+
+}
 /*height/width = padding + margin + border + height/width*/
 
 /*До 576px*/
