@@ -9,9 +9,14 @@ body{
     height: 100vh;
     box-sizing: border-box;
     position: relative;
+
 }
 .wrapper{
     width: 662px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .content {
     text-align: center;
@@ -44,12 +49,9 @@ body{
     color: #FFFFFF;
 }
 .logo{
-    width: 662px;
-    position: absolute;
-    text-align: center;
-    bottom: 115px;
-
+    margin-top: 100px;
 }
+
 .top-left{
     position: absolute;
     top: 0;
@@ -66,11 +68,6 @@ body{
     left: 20px;
 
 }
-.top-right{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
 .music_text{
     position: absolute;
     width: 20px;
@@ -81,10 +78,57 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 11px;
+    display: none;
 }
-@media (min-width: 576px){
+.top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
-}
+@media (max-width: 576px){
+    .wrapper{
+        padding: 0 40px;
+        margin-top: 150px;
+    }
+    .music_text{
+        position: absolute;
+        display: block;
+        top: 10px;
+        left: 83%;
+    }
+    .music{
+        width: 46px;
+        top: 40px;
+        left: 85%;
+    }
+    .sign img{
+        width: 80px;
+    }
+    .top-right, .bottom-left{
+        display: none;
+    }
+    .top-left{
+        top: -30px;
+        width: 110px;
+
+    }
+    .content h1{
+        font-size: 65px;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .sign p{
+        font-size: 16px;
+    }
+
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
 /*height/width = padding + margin + border + height/width*/
 
 /*До 576px*/
