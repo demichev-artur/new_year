@@ -12,7 +12,6 @@ body{
 }
 .wrapper{
     width: 662px;
-    border: 1px solid red;
 }
 .content {
     text-align: center;
@@ -32,6 +31,25 @@ body{
     line-height: 22px;
     color: #FFFFFF;
 }
+.sign{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sign p{
+    font-family: Poiret One, sans-serif ;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.logo{
+    width: 662px;
+    position: absolute;
+    text-align: center;
+    bottom: 115px;
+
+}
 .top-left{
     position: absolute;
     top: 0;
@@ -45,13 +63,24 @@ body{
 .music{
     position: absolute;
     bottom: 80px;
-    left: 15px;
+    left: 20px;
 
 }
 .top-right{
     position: absolute;
     top: 0;
     right: 0;
+}
+.music_text{
+    position: absolute;
+    width: 20px;
+    bottom: 150px;
+    left: 15px;
+    color: white;
+    font-family: Poiret One, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 11px;
 }
 /*height/width = padding + margin + border + height/width*/
 
