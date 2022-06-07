@@ -85,8 +85,56 @@ body{
     top: 0;
     right: 0;
 }
+@media (max-width: 768px){
+    .wrapper {
+        padding: 0 40px;
+        margin-top: 150px;
+    }
 
-@media (max-width: 576px) {
+    .music_text {
+        position: absolute;
+        display: block;
+        top: 20px;
+        left: 85%;
+    }
+
+    .music {
+        width: 46px;
+        top: 50px;
+        left: 86%;
+    }
+
+    .sign img {
+        width: 80px;
+    }
+
+    .top-right, .bottom-left {
+        display: none;
+    }
+
+    .top-left {
+        top: -30px;
+        width: 110px;
+
+    }
+
+    .content h1 {
+        font-size: 64px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .sign p {
+        font-size: 16px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+}
+@media (max-width: 576px){
     .wrapper {
         padding: 0 40px;
         margin-top: 150px;
@@ -138,7 +186,7 @@ body{
 @media (max-width: 450px){
     .wrapper{
         padding: 0 40px;
-        margin-top: 150px;
+        margin-top: 140px;
     }
     .music_text{
         position: absolute;
@@ -159,7 +207,7 @@ body{
         display: none;
     }
     .top-left{
-        top: -30px;
+        top: -20px;
         width: 90px;
 
     }
@@ -177,10 +225,10 @@ body{
     }
 }
 
-@media (max-width: 385px){
+@media (max-width: 400px){
     .wrapper{
         padding: 0 40px;
-        margin-top: 170px;
+        margin-top: 120px;
     }
     .music_text{
         position: absolute;
@@ -202,7 +250,7 @@ body{
         display: none;
     }
     .top-left{
-        top: -30px;
+        top: -10px;
         width: 80px;
 
     }
@@ -210,20 +258,21 @@ body{
         font-size: 50px;
     }
     .content p{
-        font-size: 10px;
+        font-size: 16px;
     }
     .sign p{
-        font-size: 10px;
+        font-size: 14px;
     }
-    .logo img{
+    .logo{
+        margin-top: 70px;
         width: 80px;
     }
 }
 
-@media (max-width: 345px){
+@media (max-width: 360px){
     .wrapper{
-        padding: 0 40px;
-        margin-top: 150px;
+        padding: 0 30px;
+        margin-top: 80px;
     }
     .music_text{
         position: absolute;
@@ -244,22 +293,23 @@ body{
         display: none;
     }
     .top-left{
-        top: -30px;
+        /*top: -30px;*/
         width: 70px;
     }
     .content h1{
-        font-size: 45px;
+        font-size: 52px;
     }
     .content p{
-        font-size: 8px;
+        font-size: 14px;
     }
     .sign p{
         font-size: 10px;
     }
-    .logo img{
-        width: 70px;
+    .logo{
+        margin-top: 20px;
     }
 }
+
 /*height/width = padding + margin + border + height/width*/
 
 /*До 576px*/
