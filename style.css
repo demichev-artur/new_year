@@ -22,7 +22,7 @@ body{
     text-align: center;
 }
 .content h1{
-    font-family: 'Comforter', sans-serif;
+    font-family: 'Campanella', sans-serif;
     font-weight: 400;
     font-size: 72px;
     line-height: 115px;
@@ -62,253 +62,281 @@ body{
     bottom: 0;
     left: 0;
 }
-.music{
+.music_block{
+    /*display: flex;*/
+    /*!*width: 30px;*!*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*box-sizing: border-box;*/
+
     position: absolute;
     bottom: 80px;
     left: 20px;
-
+    /*box-sizing: border-box;*/
+    text-align: center;
+    border: 2px solid red;
 }
-.music_text{
-    position: absolute;
-    width: 20px;
-    bottom: 150px;
-    left: 15px;
+.music_block img{
+    width: 100%;
+
+    margin-top: 10px;
+}
+.music_block p{
+    margin: 0;
     color: white;
     font-family: Poiret One, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 11px;
-    display: none;
+}
+.music_text{
+    /*position: absolute;*/
+    /*width: 20px;*/
+
+    /*display: none;*/
 }
 .top-right{
     position: absolute;
     top: 0;
     right: 0;
 }
-@media (max-width: 768px){
+/*Adaptive to 360px width*/
+
+/*@media (max-width: 768px){*/
+/*    .wrapper {*/
+/*        padding: 0 40px;*/
+/*        margin-top: 150px;*/
+/*    }*/
+
+/*    .music_text {*/
+/*        position: absolute;*/
+/*        display: block;*/
+/*        top: 20px;*/
+/*        left: 85%;*/
+/*    }*/
+
+/*    .music {*/
+/*        width: 46px;*/
+/*        top: 50px;*/
+/*        left: 86%;*/
+/*    }*/
+
+/*    .sign img {*/
+/*        width: 80px;*/
+/*    }*/
+
+/*    .top-right, .bottom-left {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .top-left {*/
+/*        top: -30px;*/
+/*        width: 110px;*/
+
+/*    }*/
+
+/*    .content h1 {*/
+/*        font-size: 64px;*/
+/*    }*/
+
+/*    .content p {*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .sign p {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .logo img {*/
+/*        width: 100px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 576px){*/
+/*    .wrapper {*/
+/*        padding: 0 40px;*/
+/*        margin-top: 150px;*/
+/*    }*/
+
+/*    .music_text {*/
+/*        position: absolute;*/
+/*        display: block;*/
+/*        top: 20px;*/
+/*        left: 78%;*/
+/*    }*/
+
+/*    .music {*/
+/*        width: 46px;*/
+/*        top: 50px;*/
+/*        left: 80%;*/
+/*    }*/
+
+/*    .sign img {*/
+/*        width: 80px;*/
+/*    }*/
+
+/*    .top-right, .bottom-left {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .top-left {*/
+/*        top: -30px;*/
+/*        width: 110px;*/
+
+/*    }*/
+
+/*    .content h1 {*/
+/*        font-size: 64px;*/
+/*    }*/
+
+/*    .content p {*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .sign p {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .logo img {*/
+/*        width: 100px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 450px){*/
+/*    .wrapper{*/
+/*        padding: 0 40px;*/
+/*        margin-top: 140px;*/
+/*    }*/
+/*    .music_text{*/
+/*        position: absolute;*/
+/*        display: block;*/
+/*        top: 20px;*/
+/*        font-size: 12px;*/
+/*        left: 81%;*/
+/*    }*/
+/*    .music{*/
+/*        width: 40px;*/
+/*        top: 50px;*/
+/*        left: 82%;*/
+/*    }*/
+/*    .sign img{*/
+/*        width: 80px;*/
+/*    }*/
+/*    .top-right, .bottom-left{*/
+/*        display: none;*/
+/*    }*/
+/*    .top-left{*/
+/*        top: -20px;*/
+/*        width: 90px;*/
+
+/*    }*/
+/*    .content h1{*/
+/*        font-size: 58px;*/
+/*    }*/
+/*    .content p{*/
+/*        font-size: 12px;*/
+/*    }*/
+/*    .sign p{*/
+/*        font-size: 14px;*/
+/*    }*/
+/*    .logo img{*/
+/*        width: 90px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 400px){*/
+/*    .wrapper{*/
+/*        padding: 0 40px;*/
+/*        margin-top: 120px;*/
+/*    }*/
+/*    .music_text{*/
+/*        position: absolute;*/
+/*        display: block;*/
+/*        top: 20px;*/
+/*        font-size: 10px;*/
+/*        left: 83%;*/
+/*    }*/
+/*    .music{*/
+/*        width: 30px;*/
+
+/*        top: 50px;*/
+/*        left: 84%;*/
+/*    }*/
+/*    .sign img{*/
+/*        width: 70px;*/
+/*    }*/
+/*    .top-right, .bottom-left{*/
+/*        display: none;*/
+/*    }*/
+/*    .top-left{*/
+/*        top: -10px;*/
+/*        width: 80px;*/
+
+/*    }*/
+/*    .content h1{*/
+/*        font-size: 50px;*/
+/*    }*/
+/*    .content p{*/
+/*        font-size: 16px;*/
+/*    }*/
+/*    .sign p{*/
+/*        font-size: 14px;*/
+/*    }*/
+/*    .logo{*/
+/*        margin-top: 70px;*/
+/*        width: 80px;*/
+/*    }*/
+/*}*/
+@media (max-width: 360px) {
     .wrapper {
-        padding: 0 40px;
-        margin-top: 150px;
+        padding: 155px 16px 0;
+        /*margin-top: 150px;*/
     }
 
-    .music_text {
+    .music_block {
         position: absolute;
-        display: block;
-        top: 20px;
+        bottom: 90%;
         left: 85%;
-    }
-
-    .music {
-        width: 46px;
-        top: 50px;
-        left: 86%;
-    }
-
-    .sign img {
-        width: 80px;
-    }
-
-    .top-right, .bottom-left {
-        display: none;
-    }
-
-    .top-left {
-        top: -30px;
-        width: 110px;
 
     }
-
-    .content h1 {
-        font-size: 64px;
-    }
-
-    .content p {
-        font-size: 14px;
-    }
-
-    .sign p {
-        font-size: 16px;
-    }
-
-    .logo img {
-        width: 100px;
-    }
-}
-@media (max-width: 576px){
-    .wrapper {
-        padding: 0 40px;
-        margin-top: 150px;
-    }
-
-    .music_text {
-        position: absolute;
-        display: block;
-        top: 20px;
-        left: 78%;
-    }
-
-    .music {
-        width: 46px;
-        top: 50px;
-        left: 80%;
-    }
-
-    .sign img {
-        width: 80px;
-    }
-
-    .top-right, .bottom-left {
-        display: none;
-    }
-
-    .top-left {
-        top: -30px;
-        width: 110px;
-
-    }
-
-    .content h1 {
-        font-size: 64px;
-    }
-
-    .content p {
-        font-size: 14px;
-    }
-
-    .sign p {
-        font-size: 16px;
-    }
-
-    .logo img {
-        width: 100px;
-    }
-}
-@media (max-width: 450px){
-    .wrapper{
-        padding: 0 40px;
-        margin-top: 140px;
-    }
-    .music_text{
-        position: absolute;
-        display: block;
-        top: 20px;
-        font-size: 12px;
-        left: 81%;
-    }
-    .music{
-        width: 40px;
-        top: 50px;
-        left: 82%;
-    }
-    .sign img{
-        width: 80px;
-    }
-    .top-right, .bottom-left{
-        display: none;
-    }
-    .top-left{
-        top: -20px;
-        width: 90px;
-
-    }
-    .content h1{
-        font-size: 58px;
-    }
-    .content p{
-        font-size: 12px;
-    }
-    .sign p{
-        font-size: 14px;
-    }
-    .logo img{
-        width: 90px;
-    }
-}
-
-@media (max-width: 400px){
-    .wrapper{
-        padding: 0 40px;
-        margin-top: 120px;
-    }
-    .music_text{
-        position: absolute;
-        display: block;
-        top: 20px;
-        font-size: 10px;
-        left: 83%;
-    }
-    .music{
+    .music_block img{
         width: 30px;
-
-        top: 50px;
-        left: 84%;
+        margin-top: 2px;
     }
-    .sign img{
-        width: 70px;
-    }
-    .top-right, .bottom-left{
-        display: none;
-    }
-    .top-left{
-        top: -10px;
-        width: 80px;
-
-    }
-    .content h1{
-        font-size: 50px;
-    }
-    .content p{
-        font-size: 16px;
-    }
-    .sign p{
-        font-size: 14px;
-    }
-    .logo{
-        margin-top: 70px;
-        width: 80px;
-    }
-}
-
-@media (max-width: 360px){
-    .wrapper{
-        padding: 0 30px;
-        margin-top: 80px;
-    }
-    .music_text{
-        position: absolute;
-        display: block;
-        top: 20px;
+    .music_block p{
         font-size: 10px;
-        left: 83%;
     }
-    .music{
-        width: 30px;
-        top: 50px;
-        left: 84%;
-    }
-    .sign img{
+    .sign img {
         width: 60px;
     }
-    .top-right, .bottom-left{
+
+    .top-right, .bottom-left {
         display: none;
     }
-    .top-left{
-        /*top: -30px;*/
-        width: 70px;
+
+    .top-left {
+        top: -20px;
+        left: -8px;
+        width: 90px;
     }
-    .content h1{
+
+    .content h1 {
         font-size: 52px;
     }
-    .content p{
-        font-size: 14px;
+
+    .content p {
+        font-size: 18px;
+        margin-top: 0;
     }
-    .sign p{
+
+    .sign p {
         font-size: 10px;
     }
-    .logo{
-        margin-top: 20px;
+
+    .logo {
+        margin: 60px 0 40px 0;
     }
 }
+
 
 /*height/width = padding + margin + border + height/width*/
 
