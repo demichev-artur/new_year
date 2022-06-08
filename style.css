@@ -39,6 +39,7 @@ body{
 .sign{
     display: flex;
     justify-content: center;
+    width: 100%;
     text-align: center;
 }
 .sign p{
@@ -305,10 +306,14 @@ body{
     .music_block p{
         font-size: 10px;
     }
-    .sign img {
-        width: 60px;
+    .sign{
+        position: relative;
     }
-
+    .sign img {
+        width: 85px;
+        position: absolute;
+        right: 0;
+    }
     .top-right, .bottom-left {
         display: none;
     }
@@ -316,7 +321,7 @@ body{
     .top-left {
         top: -20px;
         left: -8px;
-        width: 90px;
+        width: 100px;
     }
 
     .content h1 {
@@ -329,9 +334,11 @@ body{
     }
 
     .sign p {
-        font-size: 10px;
+        font-size: 17px;
     }
-
+    .logo img{
+        width: 90px;
+    }
     .logo {
         margin: 60px 0 40px 0;
     }
