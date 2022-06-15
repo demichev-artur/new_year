@@ -105,11 +105,12 @@ body{
     top: 0;
     right: 0;
 }
-/*Adaptive to 360px width*/
-@media (max-width: 360px) {
+
+@media (min-width: 320px) and (max-width: 768px){
     .wrapper {
         padding: 155px 16px 0;
         /*margin-top: 150px;*/
+
     }
 
     .music_block {
@@ -130,8 +131,8 @@ body{
     }
     .sign img {
         width: 85px;
-        position: absolute;
-        right: 0;
+        /*position: absolute;*/
+        /*right: 0;*/
     }
     .top-right, .bottom-left {
         display: none;
@@ -146,7 +147,6 @@ body{
     .content h1 {
         font-family: 'Campanella', sans-serif;
         font-weight: 400;
-        font-size: 72px;
         line-height: 115px;
         color: #CEB076;
         font-size: 52px;
@@ -168,6 +168,66 @@ body{
     }
 }
 
+@media (max-width: 320px){
+    .wrapper {
+        padding: 175px 10px 0;
+
+    }
+
+    .music_block {
+        position: absolute;
+        bottom: 90%;
+        left: 85%;
+
+    }
+    .music_block img{
+        width: 30px;
+        margin-top: 2px;
+    }
+    .music_block p{
+        font-size: 8px;
+    }
+    .sign{
+        position: relative;
+    }
+    .sign img {
+        width: 65px;
+
+    }
+    .top-right, .bottom-left {
+        display: none;
+    }
+
+    .top-left {
+        top: -30px;
+        left: -8px;
+        width: 90px;
+    }
+
+    .content h1 {
+        font-family: 'Campanella', sans-serif;
+        font-weight: 400;
+        font-size: 58px;
+        line-height: 100px;
+        color: #CEB076;
+
+    }
+
+    .content p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .sign p {
+        font-size: 13px;
+    }
+    .logo img{
+        width: 90px;
+    }
+    .logo {
+        margin: 60px 0 40px 0;
+    }
+}
 
 /*height/width = padding + margin + border + height/width*/
 
